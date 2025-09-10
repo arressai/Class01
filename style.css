@@ -1,0 +1,86 @@
+body {
+    padding: 30px, 30px;
+}
+
+h1 {
+    font-family: ui-rounded;
+    color:chartreuse;
+    font-size: 85px;
+    margin-left: 39px;
+}
+
+h2 {
+    font-size: 55px;
+    font-family:sans-serif
+}
+
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+.project__names {
+    width: 32%;
+    color: black;
+}
+
+.image {
+    width: 240px;
+
+}
+
+.profile {
+    width: 32%;
+    padding: 10px;
+    margin-left: 39px;
+}
+
+.project__section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center; 
+}
+
+
+.styled {
+  border: 1;
+  line-height: 2.5;
+  padding: 0 20px;
+  margin-left: 39px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(151, 247, 140);
+  text-shadow: 1px 1px 1px black;
+  border-radius: 40px;
+  background-color: aquamarine;
+  background-image: linear-gradient(
+    to top left,
+    rgb(0 0 0 / 0.2),
+    rgb(0 0 0 / 0.2) 30%,
+    transparent
+  );
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 0.6),
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);
+}
+
+.styled:hover {
+  background-color: rgb(193, 115, 115);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 0.6),
+    inset 2px 2px 3px rgb(0 0 0 / 0.6);
+}
+
+@media (max-width: 610px;){
+    .image {
+        width:360px;
+        margin-top: 10px;
+    }
+}
